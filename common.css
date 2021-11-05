@@ -296,6 +296,7 @@ h2 .emphasis	{
 		font-size: 95%;
 		border-bottom: 1px solid black;
 		border-left: 1px solid black;
+		word-break: break-all;
 	}
 
 .certification tr:nth-child(2n) {
@@ -313,7 +314,7 @@ h2 .emphasis	{
 
 .inquiry div span	{
 		/* height: 60px; */
-		font-size: 150%;
+		font-size: 140%;
 		font-weight: bold;
 
 	}
