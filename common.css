@@ -144,6 +144,7 @@ article	{
 
 .step-text2	{
 		font-size: 180%;
+		list-style-type: square;
 		/* width:75%; */
 	}
 
@@ -259,14 +260,28 @@ h2 .emphasis	{
 	}
 
 
-.detail-text table {
-		width: 90%;
+
+
+.detail-text img	{
+		padding: 20px 10px 10px 20px;
+	}
+
+.certification	{
+		font-size: 120%;
+		margin-left: 10px;
+		padding: 10px 10px 10px 30px;
+		line-height:1.8;
+
+	}
+
+.certification table {
+		width: 98%;
 		border: 1px solid black;
 		border-collapse: collapse;
 		border-spacing: 0;
-		margin: 50px 80px 10px 20px;
+		margin: 20px 10px 10px 10px;
 	}
-.detail-text th {
+.certification th {
 		color: #fff;
 		padding: 5px;
 		border-bottom: 1px solid black;
@@ -276,24 +291,38 @@ h2 .emphasis	{
 		line-height: 120%;
 		text-align: center;
 	}
-.detail-text td {
+.certification td {
 		padding: 10px;
 		font-size: 95%;
 		border-bottom: 1px solid black;
 		border-left: 1px solid black;
 	}
 
-.detail-text tr:nth-child(2n) {
+.certification tr:nth-child(2n) {
 		background: white;
 	}
 
-.detail-text tr:nth-child(2n+1) {
+.certification tr:nth-child(2n+1) {
 		background: gainsboro;
+	}	
+
+.inquiry	{
+		display: flex;
+		align-items: center; 
 	}
 
-.detail-text img	{
-		padding: 20px 10px 10px 30px;
+.inquiry div span	{
+		/* height: 60px; */
+		font-size: 150%;
+		font-weight: bold;
+
 	}
+	
+.inquiry div img	{
+		height: 50px;
+		margin : 5px 20px 0 0;
+		padding: 0;
+	}	
 
 .core-img1	{
 		width: 45%;
@@ -440,7 +469,7 @@ h2	{
 		
 	}
 
-.detail-text table {
+.certification table {
 		width: 100%;
 		margin: 10px 5px 5px 5px;
 	}
