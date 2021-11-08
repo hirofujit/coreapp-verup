@@ -65,15 +65,12 @@ header p	{
 		/* padding: 5px 50px 20px 50px; */
 		padding: 5px 0px 20px 0px;
 		/* background-color:#0070c0;*/
-		font-size:180%;
+		font-size:280%;
 		color:#ffff00;		
 		text-shadow: 2px 2px 0px #cc6600;
 		letter-spacing: 8px;
 	}
 
-.info-main .emphasis	{
-		font-size:160%;
-	}
 
 .info-main a  { 
 	color: inherit; 
@@ -125,7 +122,7 @@ article	{
 		border-radius: 10px;
 		margin-top:30px;
 		margin-bottom:20px;
-		padding: 10px 10px 10px 20px;
+		padding: 10px 10px 10px 10px;
 		font-size:180%;
 		font-weight: bold;
 		width:75%;
@@ -204,13 +201,6 @@ h2 .emphasis	{
 		color: blue;
 	}
 
-.underline	{
-		/* text-decoration:underline; */ 
-	}
-
-.adobe-icon	{
-		/* padding-top:5px;*/
-	}
 	
 .flow-box	{
 		background-color:white;
@@ -267,7 +257,7 @@ h2 .emphasis	{
 	}
 
 .certification	{
-		font-size: 120%;
+		font-size: 110%;
 		margin-left: 10px;
 		padding: 10px 10px 10px 30px;
 		line-height:1.8;
@@ -296,7 +286,6 @@ h2 .emphasis	{
 		font-size: 95%;
 		border-bottom: 1px solid black;
 		border-left: 1px solid black;
-		word-break: break-all;
 	}
 
 .certification tr:nth-child(2n) {
@@ -312,6 +301,12 @@ h2 .emphasis	{
 		align-items: center; 
 	}
 
+.inquiry div	{
+		display:inline-block;
+		word-wrap:break-word;
+		word-break: break-all;
+	}
+
 .inquiry div span	{
 		/* height: 60px; */
 		font-size: 140%;
@@ -321,7 +316,7 @@ h2 .emphasis	{
 	
 .inquiry div img	{
 		height: 50px;
-		margin : 5px 20px 0 0;
+		margin : 0px 20px 0 0;
 		padding: 0;
 	}	
 
@@ -411,14 +406,17 @@ h1	{
 		width: 100%;
 		line-height:1.5;
 	}
+.info-main	{
+
+	}
 
 .step-box	{
 		padding: 10px 5px 10px 5px;
 	}
 
 .step-title	{
-		margin-left:5px;
-		padding: 10px 5px 10px 20px;
+		margin-left:5%;
+		padding: 10px 5px 10px 5px;
 		font-size:150%;
 		width:90%;
 	}
@@ -433,7 +431,9 @@ h2	{
 		font-size:130%;
 	}
 .step-text2	{
+		margin-left: 0;
 		width:90%;
+		font-size: 120%;
 	}
 
 .step-text3	{
@@ -494,8 +494,9 @@ footer	{
 		padding: 15px 10px 20px 10px;
 	}
 
-}
+br.nobr{display:contents;}
 
+}
 
 
 /* ########### 767px以下 ########### */
