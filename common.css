@@ -253,13 +253,13 @@ h2 .emphasis	{
 
 
 .detail-text img	{
-		padding: 20px 10px 10px 20px;
+		padding: 20px 10px 10px 10px;
 	}
 
 .certification	{
-		font-size: 110%;
+		font-size: 100%;
 		margin-left: 10px;
-		padding: 10px 10px 10px 30px;
+		padding: 10px 10px 10px 10px;
 		line-height:1.8;
 
 	}
@@ -315,7 +315,7 @@ h2 .emphasis	{
 	}
 	
 .inquiry div img	{
-		height: 50px;
+		height: 40px;
 		margin : 0px 20px 0 0;
 		padding: 0;
 	}	
@@ -405,9 +405,6 @@ h1	{
 		font-size:150%;
 		width: 100%;
 		line-height:1.5;
-	}
-.info-main	{
-
 	}
 
 .step-box	{
