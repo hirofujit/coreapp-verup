@@ -136,10 +136,10 @@ article	{
 
 .step-text	{
 		font-size: 130%;
-		color:red;
+		/* color:red; */
 	}
 
-.step-text2	{
+.step-text2 ul	{
 		font-size: 180%;
 		list-style-type: square;
 		/* width:75%; */
@@ -160,7 +160,8 @@ article	{
 
 .step-text .emphasis, .step-text2 .emphasis	{
 		/* text-decoration:underline;*/
-		font-weight: bold;
+		/* font-weight: bold;*/
+		color: red;
 	}
 
 .step1-img	{
