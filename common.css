@@ -85,15 +85,18 @@ article	{
 
 .limit	{
 		position:absolute;
-		top: -100px;
+		/* top: -100px; */
+		top: 50px;
 		left:80%;
 		/*position:fixed;
 		top: 50%;
 		left:80%;*/
 		background-image: url(./limit2.png);
 		background-repeat: no-repeat;
-		width: 203px;
-		height:200px;
+		/* width: 203px;
+		height:200px;*/
+		width: 183px;
+		height:180px;
 		text-align: center;
 		font-size:40px;
 		color:#ffff00;		
@@ -102,10 +105,6 @@ article	{
 		z-index:10;
 	}
 
-.limit img	{
-		height:200px;
-		
-	}
 
 .step-box	{
 		position:relative;
@@ -128,7 +127,19 @@ article	{
 		width:75%;
 	}
 
-.step-text, .step-text2, .step-text3, .step-text4	{
+.step-title2	{
+		background-color:lightpink;
+		color:#003300;
+		border-radius: 10px;
+		margin-top:30px;
+		margin-bottom:20px;
+		padding: 10px 10px 10px 10px;
+		font-size:180%;
+		font-weight: bold;
+		width:75%;
+	}
+
+.step-text, .step-text2, .step-text3, .step-text4, .step-text5, .step-text6, .step-text7	{
 		margin-left: 20px;
 		line-height:1.8;
 		width:90%;
@@ -139,7 +150,7 @@ article	{
 		/* color:red; */
 	}
 
-.step-text2 ul	{
+.step-text2 ul, .step-text5 ul, .step-text7 ul	{
 		font-size: 180%;
 		list-style-type: square;
 		/* width:75%; */
@@ -158,7 +169,7 @@ article	{
 		font-size:130%;
 	}
 
-.step-text .emphasis, .step-text2 .emphasis	{
+.step-text .emphasis, .step-text2 .emphasis, .step-text5 .emphasis, .step-text7 .emphasis	{
 		/* text-decoration:underline;*/
 		/* font-weight: bold;*/
 		color: red;
@@ -174,6 +185,49 @@ article	{
 		font-size: 150%;
 		font-weight: bold;
 		/* color:red; */
+	}
+
+.step-text5 {
+		border: 3px dashed red;
+		border-radius: 20px;
+		background-color: mistyrose;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-bottom: 20px;
+	}
+
+.step-text6	{
+		font-size: 130%;
+		/* color:red; */
+	}
+
+.step-text6 .client-setup-list	{
+		/* font-size: 120%; */
+		font-weight: bold;
+		color:red;
+		list-style-type: square;
+		margin-left: 30px;
+		/* width:75%; */
+	}
+
+.step-text6 .client-setup-manual, .step-text6 .cautions-newversion {
+		list-style-type: none;
+		margin-left: 0;
+	}
+	
+.step-text6 .client-setup-manual li, .step-text6 .cautions-newversion li {
+		margin-left: 0;
+		padding-left: 0;
+	}	
+
+.step-text7 {
+		border: 3px dashed orange;
+		border-radius: 20px;
+		background-color: khaki;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-top: 40px;
+		margin-bottom: 30px;
 	}
 
 h2	{
@@ -428,7 +482,7 @@ h2	{
 		margin: 10px 10px 10px 10px;
 		font-size:130%;
 	}
-.step-text2	{
+.step-text2, .step-text5, .step-text7	{
 		margin-left: 0;
 		width:90%;
 		font-size: 120%;
@@ -439,6 +493,7 @@ h2	{
 		font-size: 100%;
 		padding:10px;
 	}
+
 
 .step1-img	{
 		float:right;
