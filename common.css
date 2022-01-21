@@ -69,6 +69,7 @@ header p	{
 		color:#ffff00;		
 		text-shadow: 2px 2px 0px #cc6600;
 		letter-spacing: 8px;
+		width: 83%;
 	}
 
 
@@ -85,8 +86,8 @@ article	{
 
 .limit	{
 		position:absolute;
-		/* top: -100px; */
-		top: 50px;
+		top: -200px;
+		/* top: 50px; */
 		left:80%;
 		/*position:fixed;
 		top: 50%;
@@ -105,6 +106,23 @@ article	{
 		z-index:10;
 	}
 
+.new-icon1	{
+		position:absolute;
+		background-image: url(./icon-new.gif);
+		width: 54px;
+		height:22.5px;
+		background-size: 54px 22.5px;
+		z-index:10;
+		top: -11px;
+		left:20px;
+
+	}	
+
+.new-icon2	{
+		width: 48px;
+		height:20px;
+
+	}	
 
 .step-box	{
 		position:relative;
@@ -124,7 +142,7 @@ article	{
 		padding: 10px 10px 10px 10px;
 		font-size:180%;
 		font-weight: bold;
-		width:75%;
+		width:95%;
 	}
 
 .step-title2	{
@@ -136,13 +154,19 @@ article	{
 		padding: 10px 10px 10px 10px;
 		font-size:180%;
 		font-weight: bold;
-		width:75%;
+		width:95%;
 	}
 
 .step-text, .step-text2, .step-text3, .step-text4, .step-text5, .step-text6, .step-text7	{
+		position:relative;
 		margin-left: 20px;
 		line-height:1.8;
-		width:90%;
+		width:95%;
+	}
+
+.step-text5, .step-text7	{
+		padding-right: 10px;
+		padding-left: 5px;
 	}
 
 .step-text	{
