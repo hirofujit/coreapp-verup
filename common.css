@@ -106,7 +106,7 @@ article	{
 		z-index:10;
 	}
 
-.new-icon1	{
+.icon-new1	{
 		position:absolute;
 		background-image: url(./icon-new.gif);
 		width: 54px;
@@ -118,10 +118,20 @@ article	{
 
 	}	
 
-.new-icon2	{
+.icon-new2	{
 		width: 48px;
 		height:20px;
 
+	}	
+
+.icon-star	{
+		width: 16px;
+		height:16px;
+
+	}	
+
+.icon-edge	{
+		vertical-align:middle;
 	}	
 
 .step-box	{
@@ -193,7 +203,7 @@ article	{
 		font-size:130%;
 	}
 
-.step-text .emphasis, .step-text2 .emphasis, .step-text5 .emphasis, .step-text7 .emphasis	{
+.step-text .emphasis, .step-text2 .emphasis, .step-text5 .emphasis, .step-text6 .emphasis, .step-text7 .emphasis	{
 		/* text-decoration:underline;*/
 		/* font-weight: bold;*/
 		color: red;
@@ -234,12 +244,16 @@ article	{
 		/* width:75%; */
 	}
 
-.step-text6 .client-setup-manual, .step-text6 .cautions-newversion {
+.step-text6 .edge-list	{
+		/* font-weight: bold;*/
+	}
+
+.step-text6 .client-setup-manual, .step-text6 .cautions-newversion, .step-text6 .edge-list {
 		list-style-type: none;
 		margin-left: 0;
 	}
 	
-.step-text6 .client-setup-manual li, .step-text6 .cautions-newversion li {
+.step-text6 .client-setup-manual li, .step-text6 .cautions-newversion li, .step-text6 .edge-list li {
 		margin-left: 0;
 		padding-left: 0;
 	}	
