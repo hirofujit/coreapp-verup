@@ -65,7 +65,7 @@ header p	{
 		/* padding: 5px 50px 20px 50px; */
 		padding: 5px 0px 20px 0px;
 		/* background-color:#0070c0;*/
-		font-size:280%;
+		font-size:220%;
 		color:#ffff00;		
 		text-shadow: 2px 2px 0px #cc6600;
 		letter-spacing: 8px;
@@ -86,9 +86,9 @@ article	{
 
 .limit	{
 		position:absolute;
-		top: -200px;
+		top: -240px;
 		/* top: 50px; */
-		left:80%;
+		left:82%;
 		/*position:fixed;
 		top: 50%;
 		left:80%;*/
@@ -99,10 +99,10 @@ article	{
 		width: 183px;
 		height:180px;
 		text-align: center;
-		font-size:40px;
+		font-size:28px;
 		color:#ffff00;		
 		text-shadow: 2px 2px 0px #cc6600;
-		padding-top:40px;
+		padding-top:50px;
 		z-index:10;
 	}
 
@@ -297,15 +297,32 @@ h2 .emphasis	{
 	
 .flow-box	{
 		background-color:white;
-		padding: 50px 50px 30px 150px;
+		padding: 30px 30px 30px 30px;
+		width: 70%;
+		/* max-width: 665px; */
+		margin-left: 20px;
+		margin-bottom: 30px;
 	}
 
+.flow-title	{
+	background-color:red;
+	color:white;
+	border-radius: 15px;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 10px;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	width: 250px;
+}
+
 .flow-img	{
-		width: 56%;
+		width: 100%;
 	}
 	
 .flow-box img	{
 		width: 100%;
+		/* max-width: 635px; */
 	}
 
 
