@@ -497,6 +497,75 @@ footer	{
 		clear: right;
 	}
 
+#page_top{
+		width: 110px;
+		height: 90px;
+		position: fixed;
+		right: 20px;
+		bottom: 50px;
+		color: #fff;
+		background-color: midnightblue;
+	}
+#page_top a{
+		position: relative;
+		display: block;
+		width: 110px;
+		height: 90px;
+		text-decoration: none;
+	}
+#page_top a::before{
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 900;
+		content: '\f102';
+		font-size: 25px;
+		position: absolute;
+		width: 25px;
+		height: 25px;
+		top: -40px;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+		text-align: center;
+		color: #fff;
+		background-color: midnightblue;
+	}
+#page_top a::after{
+		content: 'Edge切替えの作業手順に戻る';
+		font-size: 13px;
+		position: absolute;
+		top: 45px;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+		padding-right:8px;
+		padding-left:8px;
+		text-align: center;
+		color: #fff;
+		background-color: midnightblue;
+	}
+	  
+/* IE以外で表示されるページのスタイル */
+	.ieOnly {display: none;}
+
+		/* IEで表示されるページのスタイル */
+		_:-ms-input-placeholder, :root .ieOnly {display: block;}
+
+	.ieAlart {
+		position: fixed;
+		left: 0px;
+		bottom: 0px;
+		width: 100%;
+		height: 16px;
+		font-size:16px;
+		background-color: red;
+		color: white;
+		text-align: center;
+		padding: 10px;
+	}
+
+
 /* ########### 359px以下 ########### */
 @media (max-width: 359px) {
 

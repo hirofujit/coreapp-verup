@@ -23,6 +23,7 @@
   gtag('config', 'G-80F03SVT8E');
 </script>
 
+
 	<meta name="viewport" content="width=device-width">
 	<meta name="robots"      content="index,follow">
 
@@ -47,13 +48,45 @@
 
 	<!--<link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet"> -->
 	<!--<script src="https://kit.fontawesome.com/179dcc130f.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
 
 	<!--<link rel="stylesheet" href="reset.css">-->
 	<link rel="stylesheet" href="common.css">
 
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+	<!--<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
 
+  <script type="text/javascript">
+    jQuery(function() {
+        var pagetop = $('#page_top');   
+        pagetop.hide();
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1400) {  //100pxスクロールしたら表示
+                pagetop.fadeIn();
+            } else {
+                pagetop.fadeOut();
+            }
+        });
+      $('a[href^="#"]').click(function(){
+        var time = 500;
+        var href= $(this).attr("href");
+        var target = $(href == "#" ? 'html' : href);
+        var distance = target.offset().top;
+        $("html, body").animate({scrollTop:distance}, time, "swing");
+        return false;
+      });
+      $('area[href^="#"]').click(function(){
+        var time = 500;
+        var href= $(this).attr("href");
+        var target = $(href == "#" ? 'html' : href);
+        var distance = target.offset().top;
+        $("html, body").animate({scrollTop:distance}, time, "swing");
+        return false;
+      });
+    });
+    </script>
+  
 
 </head>
 <body>
@@ -275,7 +308,9 @@ Internet Explorer11のサポートが終了する6月16日（木）までにMicr
 </article>
 
 
+<div id="page_top"><a href="#flow"></a></div>
 
+<div class="ieOnly ieAlart">ご利用の Internet Explorer ブラウザ は令和4年6月16日（日本時間）にサポートが終了となります。本ページの案内に従って Microsoft Edge ブラウザへの切替えをお願いします。</div>
 
 <footer>
 発信元：岡山県電子入札共同利用推進協議会事務局<br />
