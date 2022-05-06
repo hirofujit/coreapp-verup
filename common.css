@@ -10,9 +10,13 @@ body	{
 	}
 
 header, nav, article, aside, section, footer {
-	display:block;
-}
+		display:block;
+	}
 
+.scriptmessage	{
+		padding: 16px;
+		margin: 0;
+	}
 
 p	{
 		line-height:1.5;
