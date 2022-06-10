@@ -73,7 +73,8 @@ header p	{
 		color:#ffff00;		
 		text-shadow: 2px 2px 0px #cc6600;
 		letter-spacing: 8px;
-		width: 83%;
+		/* width: 83%;*/
+		width:95%;
 	}
 
 
@@ -302,7 +303,9 @@ h2 .emphasis	{
 .flow-box	{
 		background-color:white;
 		padding: 30px 30px 30px 30px;
-		width: 70%;
+		/* width: 70%; */
+		/* width: 953px; */
+		width: 946px;
 		/* max-width: 665px; */
 		margin-left: 20px;
 		margin-bottom: 30px;
@@ -321,11 +324,14 @@ h2 .emphasis	{
 }
 
 .flow-img	{
-		width: 100%;
+		/* width: 100%; */
+		/* width: 953px; */
+		width: 946px;
 	}
 	
 .flow-box img	{
-		width: 100%;
+		/* width: 100%; */
+		width: 953px;
 		/* max-width: 635px; */
 	}
 
